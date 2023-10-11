@@ -397,7 +397,10 @@ linear-gradient(0deg, #8E8F99, #8E8F99);
 }
 
 .social-link {
-	display: block;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
 }
 
 .social-list {
