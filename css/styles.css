@@ -384,6 +384,29 @@ linear-gradient(0deg, #8E8F99, #8E8F99);
 	font-size: 16px;
 }
 
+.social-icon {
+	width: 40px;
+	height: 40px;
+	
+	fill: #4D5AE5;
+}
+
+.social-link:focus,
+.social-link:hover {
+	fill: #31D0AA;
+}
+
+.social-link {
+	display: block;
+}
+
+.social-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
 /* portfolio */
 
 .container .portfolio-list {
