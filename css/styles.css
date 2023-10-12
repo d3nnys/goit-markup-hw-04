@@ -548,3 +548,27 @@ linear-gradient(0deg, #FFFFFF, #FFFFFF);
 	letter-spacing: 0.02em;
 	color: #f4f4fd;
 }
+
+.footer-list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 120px;
+}
+
+.footer-item {
+}
+
+.footer-item .item-text {
+  margin-bottom: 16px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer-item .social-list {
+  gap: 16px;
+}
+
+.footer-item .social-icon {
+  width: 24px;
+  height: 24px;
+}
