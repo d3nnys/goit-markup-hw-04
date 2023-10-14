@@ -129,7 +129,6 @@ img {
 .header-page .container {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
 	align-items: center;
 
 	width: 1158px;
@@ -147,7 +146,7 @@ img {
 .header-nav {
 	display: flex;
 	align-items: center;
-	margin-right: 150px;
+	margin-right: auto;
 }
 
 .nav-address {
@@ -298,50 +297,6 @@ img {
 	fill: currentColor;
 }
 
-/* .about-container::before {
-
-}
-
-.about-container:nth-child(1)::after {
-	position: absolute;
-	top: 25px;
-	left: 100px;
-	content: "";
-	width: 64px;
-	height: 64px;
-	background-image: url(../images/antenna.svg);
-}
-
-.about-container:nth-child(2)::after {
-	position: absolute;
-	top: 25px;
-	left: 100px;
-	content: "";
-	width: 64px;
-	height: 64px;
-	background-image: url(../images/clock.svg);
-}
-
-.about-container:nth-child(3)::after {
-	position: absolute;
-	top: 25px;
-	left: 100px;
-	content: "";
-	width: 64px;
-	height: 64px;
-	background-image: url(../images/diagram.svg);
-}
-
-.about-container:nth-child(4)::after {
-	position: absolute;
-	top: 25px;
-	left: 100px;
-	content: "";
-	width: 64px;
-	height: 64px;
-	background-image: url(../images/astronaut.svg);
-} */
-
 .about-text {
 	letter-spacing: 0.02em;
 }
@@ -457,7 +412,6 @@ img {
 }
 
 .portfolio-item:hover {
-	background-color: rgba(244, 244, 253, 1);
 	box-shadow: 0px 2px 1px 0px #2E2F4214, 0px 1px 1px 0px #2E2F4229, 0px 1px 6px 0px #2E2F4214;
 
 	cursor: pointer;
